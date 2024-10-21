@@ -1,5 +1,5 @@
 <template>
-    <button class="lg:hidden gap-6 fixed top-7 z-50 bg-slate-400 p-2 rounded-md text-first right-7 flex-col flex" v-on:click="toggleClass">ddfg</button>
+    <button class="lg:hidden gap-6 fixed top-7 z-50 bg-slate-400 p-2 rounded-md text-first right-7 flex-col flex" v-on:click="toggleClass">Filtrer</button>
   <div
   :class="[ classActive ? ' translate-1/4' : ' -translate-x-[800%]  ']"
   class="bg-neutral-100 fixed w-5/6 left-1  top-0 lg:hidden transition ease-in-out flex-col flex gap-6 rounded p-4">
